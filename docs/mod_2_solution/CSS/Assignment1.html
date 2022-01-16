@@ -1,1 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial scale=1.0">
+<title>Assignment Solution for Module 2</title>
+<style>
+* {
+  box-sizing: border-box;
+}
 
+h4{
+  font-size: 125%;
+  font-style: bold;
+  text-align: right;
+  width: 30%;
+  border: 1px solid black;
+  position: absolute;
+  left: 70%;
+  bottom: 318px;
+}
+
+.top{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-family: Times new roman;
+  font-size: 175%;
+  font-style: bold;
+}
+
+body{
+  background-color: darkgray;
+}
+
+div.container {
+  width: 100%;
+}
+
+p {
+  padding: 30px;
+  font-family: consolas ;
+  border: 1px solid black;
+  height: 355px;
+}
+
+.fl1{
+  background-color: blue;
+}
+
+.fl2{
+  background-color: yellow;
+}
+
+.fl3{
+  background-color: maroon;
+}
+
+@media(min-width: 992px){
+.l3 {
+  width: 30%;
+  float: left;
+}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+.m2 {
+  width: 45%;
+  float: left;
+}
+.m2a{
+  width: 94%;
+  float: left;
+}
+}
+
+@media(max-width: 767px){
+.s1 {
+  width: 91%;
+  float: left;
+}
+}
+
+section{
+  position: relative;
+  margin: 5px;
+  margin-left: 25px;
+}
+
+</style>
+</head>
+<body>
+<header class="top"> CSS Assignment solution </header>
+<div class="container">
+  <section class="l3 m2 s1 ">
+    <h4 class="fl1" >Section1</h4>
+    <p class="fl1" > A lot of people "tinker" with CSS. In this module, we'll take you from the very basics of CSS3 to some fairly advanced concepts like floating and CSS rule conflict resolution. </p>
+  </section>
+  <section  class="l3 m2 s1">
+    <h4 class="fl2">Section2</h4>
+    <p class="fl2"> We'll go over the 'box model', background property, etc. We'll finish off the module with learning about Responsive Design using our own CSS code as well as start introducing Twitter Bootstrap with its essential Grid System </p>
+  </section>
+  <section  class="l3 m2a s1">
+    <h4 class="fl3">Section3</h4>
+    <p class="fl3 ">A lot of people "tinker" with CSS. In this module, we'll take you from the very basics of CSS3 to some fairly advanced concepts like floating and CSS rule conflict resolution. We'll go over the 'box model', background property, etc. We'll finish off the module with learning about Responsive Design using our own CSS code as well as start introducing Twitter Bootstrap with its essential Grid System </p>
+  </section>
+</div>
+</body>
+</html>
